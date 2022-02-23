@@ -1,2 +1,5 @@
 # fisrt-repository
-desafio de projeto sobre git/github
+desafio de projeto da DIO
+
+## Links uteis
+[sintaxe basica de markdown](https://www.markdownguide.org/basic-syntax/)
