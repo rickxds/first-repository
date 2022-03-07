@@ -44,3 +44,21 @@ o valor que for criado para o objeto, não vai ser criado para classe(e a classe
 é como uma classe base que serve de molde para outras classes. 
 
 uma classe  que implementa interface deve implementar todos os membros.
+
+na interface, por padrão, deve ser adicionado um **I** na frente do "nome". ex.: 
+
+```interface IAcesso
+{
+   void Ler();
+   void Escrever();
+}
+interface IComprimir
+{
+   void Comprimir();
+   void Descomprimir();
+} 
+```
+
+### enum 
+
+[declara um conjunto de constantes nomeadas que começam do 0 e aumentam de 1 em 1](https://www.devmedia.com.br/trabalhando-com-structures-e-enum-em-csharp/32259)
