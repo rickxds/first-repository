@@ -62,3 +62,9 @@ interface IComprimir
 ### enum 
 
 [declara um conjunto de constantes nomeadas que começam do 0 e aumentam de 1 em 1](https://www.devmedia.com.br/trabalhando-com-structures-e-enum-em-csharp/32259)
+
+
+### debugging 
+
+em português, depuração, é o nome dado ao processo de encontrar e remover os erros que podem acometer softwares e hardwares. O termo faz parte do processo de desenvolvimento desde o início e há quem diga que ele foi criado antes mesmo dele.
+
