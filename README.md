@@ -68,3 +68,17 @@ interface IComprimir
 
 em português, depuração, é o nome dado ao processo de encontrar e remover os erros que podem acometer softwares e hardwares. O termo faz parte do processo de desenvolvimento desde o início e há quem diga que ele foi criado antes mesmo dele.
 
+
+# CLI do dotnet(basics)
+
+```dotnet --help``` fornece a documentação da interface do .net na linha de comando.
+
+```new``` permite que criemos um projeto ou um arquivo dentro da pasta em que estamos.
+
+```nuget``` é um gerenciador de pacotes para dotnet.
+
+```run``` comando que builda e roda sua aplicação 
+
+```test``` cria um projeto de teste que vai automatizar os testes da sua aplicação.
+
+```tool``` permite que você instale e gerencie ferramentas de extensão pro dotnet.
