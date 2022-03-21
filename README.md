@@ -120,3 +120,21 @@ o CLR também fornece outros serviços:
 + resources manager: literalmente gerenciador de recursos.
 
 além dos serviços de tempo de execução, o .net também inclui uma extensa biblioteca com milhares de classes que fornecem uma ampla variedade de funcionalidades úteis, desde entrada e saída de arquivos, manipulação de cadeias de caracteres, analise xml, etc.
+
+***
+
+# estrutura de programa
+
+os principais conceitos organizacionais em C# são:
+
++ programas
++ namespaces
++ tipos
++ membros
++ assemblies
+
+programas em C# consistem em um ou mais arquivos.<br> os **programas** declaram **tipos** que contém **membros** e podem ser oganizados em **namespaces**
+
+*classes e interfaces* são exemplos de **tipos**.<br> *campos, métodos, propriedades e eventos* são exemplos de **membros**.
+
+quando os programas C# são compilados, eles são fisicamente empacotados em ```assemblies```. <br> os assemblies geralmente tem a extensão de arquivo **.exe ou .dll** dependendo se são aplicações ou bibliotecas.
