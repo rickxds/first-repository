@@ -11,6 +11,8 @@ alguns estudos
 
 [livros de programação gratuitos](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-pt_BR.md)
 
+***
+
 
 # introdução ao C# e .NET
 
@@ -89,6 +91,8 @@ em português, depuração, é o nome dado ao processo de encontrar e remover os
 
 ```build``` compila o código e gera uma linguagem intermediária.(dll é um código compilado em uma linguagem intermediária.)
 
+***
+
 conhecendo o C#
 ===============
 
@@ -121,7 +125,7 @@ o CLR também fornece outros serviços:
 
 além dos serviços de tempo de execução, o .net também inclui uma extensa biblioteca com milhares de classes que fornecem uma ampla variedade de funcionalidades úteis, desde entrada e saída de arquivos, manipulação de cadeias de caracteres, analise xml, etc.
 
-***
+
 
 # estrutura de programa
 
