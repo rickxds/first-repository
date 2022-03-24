@@ -142,3 +142,23 @@ programas em C# consistem em um ou mais arquivos.<br> os **programas** declaram 
 *classes e interfaces* são exemplos de **tipos**.<br> *campos, métodos, propriedades e eventos* são exemplos de **membros**.
 
 quando os programas C# são compilados, eles são fisicamente empacotados em ```assemblies```. <br> os assemblies geralmente tem a extensão de arquivo **.exe ou .dll** dependendo se são aplicações ou bibliotecas.
+
+# tipos e variáveis
+
+## tipos de valor
+
+variáveis de tipos de valor contêm diretamente seus dados <br> <br> as variáveis tem ua própria cópia dos dados e não é possível que as operações afetem outra varíavel(exceto no caso das variáveis de parâmetro *ref e out*)
+
+**numéricos:** sbyte, short, int, long, byte, ushort, uint, ulong. <br>
+**caracteres unicode:** char. <br>
+**pontos flutuantes:** float, double, decimal. <br>
+**booleano:** bool. <br> **enum, struct e tipos nullable**.
+
+## tipos de referência
+
+varíaveis de tipos de referência armazenam referências a seus dados. <br> <br>
+é possível que duas variáveis façam referência ao mesmo objeto e, portanto, que operações em uma variável afetem o objeto referenciado pela outra variável.
+
+**tipos classe:** class, object, string. <br>
+**tipos arrays:** int[], int[,], etc... <br>
+**interface, delegate**
