@@ -159,6 +159,17 @@ variáveis de tipos de valor contêm diretamente seus dados <br> <br> as variáv
 varíaveis de tipos de referência armazenam referências a seus dados. <br> <br>
 é possível que duas variáveis façam referência ao mesmo objeto e, portanto, que operações em uma variável afetem o objeto referenciado pela outra variável.
 
-**tipos classe:** class, object, string. <br>
-**tipos arrays:** int[], int[,], etc... <br>
+**tipos classe: class, object, string. <br>
+tipos arrays:** int[], int[,], etc... <br>
 **interface, delegate**
+
+# instruções<br> (declaração de variáveis e constantes)
+
+ações de um programa são expressas usando instruções. <br> { <br>
+um bloco permite que várias instruções sejam escritas em contextos <br>
+}
+
+Instruções de condicional: if, switch<br> Instruções de repetição: while, do, for, foreach<br>
+Instruções auxiliares: break, continue, return<br> Instruções para tratativa de exception: throw, try .. catch .. finally
+
+Using: dentro de uma classe importa referências a pacotes e a namespaces do nosso projeto.
