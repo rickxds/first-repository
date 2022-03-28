@@ -33,13 +33,26 @@ ex: ```System.Console```
 
 ou colocar o ```using``` como dito anteriormente.
 
-### classe
+### classe e objeto
+
+> a classe é basicamente a definição de uma estrutura que depois vai gerar um objeto em tempo de execução <br>
+> o C# é uma linguagem pautada num paradigma de orientação objeto, por isso o conceito de classe é muito importante. <br>
+> em tempo de execução uma classe é instanciada e vai gerar um objeto em memória.
+
+
+classes são os tipos mais fundamentais de C# <br> uma classe é uma estrutura de dados que combina estado(campos) e ações(métodos).
 
 uma classe pode ter campos, propriedades, métodos e eventos dentro dela, que são denominados **membros**
 
 quando uma classe é instanciada, essa instância é chamada de *objeto*, e nesse objeto podem ser criados valores de acordo com os campos da classe. 
 
 o valor que for criado para o objeto, não vai ser criado para classe(e a classe vai ser utilizada para criar outros objetos).
+
+objetos são instâncias de uma classe
+
+
+
+
 
 ### interface
 
