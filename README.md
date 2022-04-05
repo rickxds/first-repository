@@ -33,9 +33,9 @@ ex: ```System.Console```
 
 ou colocar o ```using``` como dito anteriormente.
 
-### classe e objeto
+# classes e objetos essenciais em C#
 
-> a classe é basicamente a definição de uma estrutura que depois vai gerar um objeto em tempo de execução <br>
+> a classe é basicamente a definição de uma estrutura que depois vai gerar um objeto em tempo de execução, <br>
 > o C# é uma linguagem pautada num paradigma de orientação objeto, por isso o conceito de classe é muito importante. <br>
 > em tempo de execução uma classe é instanciada e vai gerar um objeto em memória.
 
@@ -48,7 +48,30 @@ quando uma classe é instanciada, essa instância é chamada de *objeto*, e ness
 
 o valor que for criado para o objeto, não vai ser criado para classe(e a classe vai ser utilizada para criar outros objetos).
 
-objetos são instâncias de uma classe
+objetos são instâncias de uma classe.<br> instâncias de classes(objetos) são criadas usando o operador *new* que aloca memória para uma nova instância,<br> 
+chama um construtor para inicializar a instância e retorna uma referência à instância.
+
+os ```membros(constantes, variáveis, métodos, propriedades, construtores e etc)```de uma classe podem ser estáticos ou membros da instância<br>
+membros estáticos pertencem a classe e membros de instância pertencem ao objeto.
+
+cada ```membro``` de uma classe tem uma acessibilidade associada, que controla as regiões do texto do programa que podem acessar o membro.<br>
+podem ser: 
++ public
++ protected 
++ internal
++ private
+
+## herança
+
+uma declaração de classe pode especificar uma classe base, herdando os membros public, internal e protected da classe base.
+
+omitir uma especificação de classe base é o mesmo que derivar do tipo object.
+
+
+
+
+
+
 
 
 
