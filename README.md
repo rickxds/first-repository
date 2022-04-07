@@ -219,3 +219,21 @@ um método é um membro que implementa uma computação ou ação que pode ser e
 os métodos podem ter uma lista de parâmetros, que representam valores  ou referências de variáveis passados para o método, e um tipo de retorno, que especifica o tipo do valor calculado e retornado pelo método.
 
 uma boa prática é nomear métodos como verbos, pois indicam uma ação. e as propriedades como substantivos.
+
+***
+
+# trabalhando com struct, interface e enum
+
+## structs 
+
+como as classes, as structs são estruturas de dados que podem conter membros de dados e membros de ação, mas, diferentemente das classes, as structs são tipos de valor e não requerem alocação de heap.<br>
+uma variável de um tipo struct armazena diretamente os dados da estrutura, enquanto uma variável de um tipo de classe armazena uma referência a um objeto alocado na memória.
+
+structs não aceitam herança determinada pelo dev.<br>
+são úteis para pequenas estruturas de dados que possuem semântica de valor, ex.:
++ números complexos
++ pontos em um sistema de coordenadas 
++ pares de chave-valor em um dicionário
+
+o uso de ***structs*** ao invés de classes para pequenas estruturas de dados pode fazer uma grande diferença no número de alocações na memória.<br>
+um *construtor* struct não aloca dinamicamente um objeto no heap e retorna uma referência a ele, como seria em uma classe. ao invés disso ele retorna o próprio valor da struct(normalmente em um local temporário na stack), e esse valor é copiado conforme necessário.  
